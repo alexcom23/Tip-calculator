@@ -195,6 +195,23 @@ body{
         display: flex;
         flex-direction: column;
         position: absolute;
+        height: 100%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px 20px 0px 0px;
+    }
+    .container-content-full> .container-left ,.container-left{
+        min-width: 100%;
+    }
+    .container-right{
+        width: 90%;
+        margin: 0;
+        height: 45%;
+    }
+    img{
+        display: flex;
+        position:relative;
     }
     .tip-buttons{
         display: grid;
@@ -202,9 +219,13 @@ body{
         gap: 10px;
         color: white;
     }
+    .btn,
+    .custom-btn{
+        width: 100%;
+    }
     .container-right,
     .container-left{
-        min-width: 80%;
+        min-width: 90%;
         position: relative;
     }
 }
