@@ -196,16 +196,24 @@ body{
         flex-direction: column;
         position: absolute;
         height: 100%;
-        width: 100%;
+        width: 95%;
         justify-content: center;
         align-items: center;
         border-radius: 20px 20px 0px 0px;
+        margin-top: 0;
+        padding: 10px;
     }
     .container-content-full> .container-left ,.container-left{
         min-width: 100%;
     }
     .container-right{
         width: 90%;
+        margin: 0;
+        height: 45%;
+        padding: 30px;
+    }
+    .container-left{
+        width: 80%;
         margin: 0;
         height: 45%;
     }
@@ -218,14 +226,27 @@ body{
         grid-template-columns: 1fr 1fr;
         gap: 10px;
         color: white;
+        justify-content: center;
     }
     .btn,
     .custom-btn{
+       
         width: 100%;
+        
     }
     .container-right,
     .container-left{
-        min-width: 90%;
+        min-width: 80%;
         position: relative;
+    }
+    .tip-total-text{
+        color:var(--very-light-grey);
+        margin: 0;
+        font-size: 16px;
+    }
+    .per-person{
+        color:var(--greyish-green);
+        margin: 0;
+        font-size: 12px;
     }
 }
